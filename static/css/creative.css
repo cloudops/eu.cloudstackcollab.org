@@ -342,8 +342,8 @@ header .header-content .header-content-inner p {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
-    color: #222;
-    background-color: #ee4b28;
+    color: #fff;
+    background-color: #55C499;
 }
 
 .btn-default:active,
@@ -394,9 +394,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: #55C499;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #55C499;
 }
 
 .btn-primary:active,
@@ -583,4 +583,32 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/*  Additional button styles  */
+
+.flare.btn-default {
+    background-color: #55C499;
+}
+
+.flare.btn-primary:hover,
+.flare.btn-primary:focus,
+.flare.btn-primary.focus,
+.flare.btn-primary:active,
+.flare.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    border-color: #ed431f;
+    color: #fff;
+    background-color: #ee4b28;
+}
+
+.flare.btn-default:hover,
+.flare.btn-default:focus,
+.flare.btn-default.focus,
+.flare.btn-default:active,
+.flare.btn-default.active,
+.open > .dropdown-toggle.btn-primary {
+    border-color: #ed431f;
+    color: #fff;
+    background-color: #ee4b28;
 }
