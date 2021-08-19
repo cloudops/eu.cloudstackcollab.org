@@ -47,12 +47,13 @@ p {
 }
 
 .bg-primary {
-    background-color: #0984a3;
+    background-color: #F4F4F4;
+    color:#222;
 }
 
 .bg-dark {
     color: #fff;
-    background-color: #222;
+    background-color: #141A26;
 }
 
 .text-faded {
@@ -376,7 +377,7 @@ fieldset[disabled] .btn-default.active {
 
 .btn-default .badge {
     color: #fff;
-    background-color: #222;
+    background-color: #141A26;
 }
 
 .btn-primary {
@@ -434,7 +435,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn {
     border: 0;
-    border-radius: 300px;
+    border-radius: 5px;
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
@@ -447,13 +448,13 @@ fieldset[disabled] .btn-primary.active {
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
-    background: #222;
+    background: #141A26;
 }
 
 ::selection {
     text-shadow: none;
     color: #fff;
-    background: #222;
+    background: #141A26;
 }
 
 img::selection {
@@ -467,7 +468,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #222;
+    webkit-tap-highlight-color: #141A26;
 }
 
 .text-faded {
@@ -507,7 +508,7 @@ body {
 }
 
 .bg-primary a {
-    color:white;
+    color:#1AA3C5;
 }
 .bg-primary a.btn {
     color:#222;
@@ -586,6 +587,11 @@ body {
 }
 
 /*  Additional button styles  */
+
+.flare.btn-primary {
+    background-color: #71A7C3;
+    color:#222;
+}
 
 .flare.btn-default {
     background-color: #55C499;
