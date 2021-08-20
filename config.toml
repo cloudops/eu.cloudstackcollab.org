@@ -1,6 +1,6 @@
 baseurl = "http://cloudstackcollab.org/"
 languageCode = "en-us"
-title = "Apache CloudStack Collaboration Conference - Europe"
+title = "CloudStack Collabpration Conference Virtual - November 9-12, 2021"
 theme = "hugo-creative-theme"
 
 [params]
@@ -19,8 +19,8 @@ theme = "hugo-creative-theme"
 
   # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-  name = "Apache CloudStack"
-  description = "Apache CloudStack Collaboration Conference hosted virtually in European time"
+  name = "Apache CloudStack Collaboration Conference"
+  description = "The biggest CloudStack event for the year. 30+ interactive sessions, workshops and technical talks. Visitors from 40+ countries discussing building open-source cloud and IaaS."
 
   # The path must be relative to the static folder
   favicon = "favicon.ico"
