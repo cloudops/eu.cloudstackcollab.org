@@ -624,6 +624,7 @@ body {
 
 .sponsor-box {
     margin:0 auto;
+    margin-top:15px;
 }
 
 .sponsor-box img {
@@ -642,4 +643,11 @@ body {
     object-fit: contain;
     max-width:275px;
     max-height:200px;
+}
+
+.silver .sponsor-box img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    max-width:250px;
+    max-height:150px;
 }
