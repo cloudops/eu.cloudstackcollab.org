@@ -651,3 +651,14 @@ body {
     max-width:250px;
     max-height:150px;
 }
+
+.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-modal .modal-content img {
+    min-width: 300px;
+    min-height:300px;
+}
