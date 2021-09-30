@@ -1,0 +1,14 @@
+<div class="schedule-item row">
+    <div class="col-xs-12 col-md-2" style="text-align:center;">
+        <img class="schedule-img" src="{{.data.img}}" />
+    </div>
+    <div class="col-xs-12 col-md-10">
+        <button class="schedule-item-expander"><i class="fa fa-angle-down" style="font-size:35px;"></i></button>
+        <div class="schedule-time text-muted">{{.data.time}}</div>
+        <h3 class="schedule-title">{{.data.title}}</h3>
+        <div class="schedule-speaker text-muted"><i class="fa fa-microphone" style="font-size:20px;"></i>&nbsp;&nbsp;&nbsp;{{.data.speaker}}, {{.data.company}}</div>
+    </div>
+    <div class="col-xs-12 desc-wrapper">
+        <div id="{{.context}}-{{.index}}" class="schedule-description" style="display:none;">{{.data.desc}}</div>
+    </div>
+</div>

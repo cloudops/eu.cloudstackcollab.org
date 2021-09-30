@@ -662,3 +662,44 @@ body {
     min-width: 300px;
     min-height:300px;
 }
+
+#schedule {
+    background-image: url(../img/schedule_bg.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.schedule-item {
+    margin-top:10px;
+    padding-bottom:10px;
+    border-bottom:2px solid #ddd;
+}
+.schedule-img {
+    width:100%;
+    max-width:200px;
+}
+.schedule-item-expander {
+    float:right;
+    border:0;
+    background:none;
+    margin-top:35px;
+}
+.schedule-time {
+    margin-top:10px;
+}
+.schedule-title {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.schedule-speaker {
+    font-size:105%;
+}
+.schedule-description {
+    border-top:1px solid #aaa;
+    border-bottom:1px solid #aaa;
+    padding:5px;
+    margin-top:5px;
+    background:#f2f2f2;
+}
