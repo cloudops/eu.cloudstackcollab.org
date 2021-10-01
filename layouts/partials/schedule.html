@@ -18,11 +18,12 @@
             </div>
         </div>
     </div>
-<!--
+
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-10 col-md-push-1">
                 <ul class="nav nav-pills">
+                    <li><a data-toggle="pill" class="btn btn-default" style="margin-right:10px; margin-top:10px;" href="#11-08">Monday - 11/08</a></li>
                     <li class="active"><a data-toggle="pill" class="btn btn-default" style="margin-right:10px; margin-top:10px;" href="#11-09">Tuesday - 11/09</a></li>
                     <li><a data-toggle="pill" class="btn btn-default" style="margin-right:10px; margin-top:10px;" href="#11-10">Wednesday - 11/10</a></li>
                     <li><a data-toggle="pill" class="btn btn-default" style="margin-right:10px; margin-top:10px;" href="#11-11">Thursday - 11/11</a></li>
@@ -33,6 +34,12 @@
         <div class="row" style="background-color:white; margin-top:15px; padding-bottom:15px;">
             <div class="col-xs-12 col-md-10 col-md-push-1">
                 <div class="tab-content">
+                    <div id="11-08" class="tab-pane fade">
+                        <h3 style="margin-bottom:20px;">Monday - 11/08</h3>
+                        {{ range $i, $d := .Site.Data.schedule_11_08 }}
+                            {{ partial "_schedule_item.html" (dict "data" $d "index" $i "context" "11-08") }}
+                        {{ end }}
+                    </div>
                     <div id="11-09" class="tab-pane fade in active">
                         <h3 style="margin-bottom:20px;">Tuesday - 11/09</h3>
                         {{ range $i, $d := .Site.Data.schedule_11_09 }}
@@ -61,5 +68,4 @@
             </div>
         </div>
     </div>
-    -->
 </section>

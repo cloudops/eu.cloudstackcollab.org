@@ -680,8 +680,14 @@ body {
     width:100%;
     max-width:200px;
 }
+.schedule-tag {
+    float:right;
+    margin-top:10px;
+    font-size:95%;
+}
 .schedule-item-expander {
     float:right;
+    clear:right;
     border:0;
     background:none;
     margin-top:35px;
