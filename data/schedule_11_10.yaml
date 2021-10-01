@@ -85,7 +85,7 @@
   desc: "Many web hosting company who are into the business of selling dedicated servers have their own hardware's but they don't have a easy entry into the Public Cloud since they don't have a cost effective Management portal to offer to their customers. We have already started the development of a ACS Management Portal which is going to be very cost effective and easy for the companies who want's to make entry into Selling Public Cloud using CloudStack. We will be offering it at very optimal cost with very user friendly UI/UX."
   tag: "User Stories & Integrations"
   theme: "info"
-  img: "img/speakers/incognito.png"
+  img: "img/speakers/saurabh-rapatwar.png"
 - title: "Network Function Virtualization with Apache Cloudstack"
   speaker: "Alexandre Mattioli"
   company: "SB"
