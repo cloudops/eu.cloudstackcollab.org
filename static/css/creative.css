@@ -635,13 +635,13 @@ body {
     -o-object-fit: contain;
     object-fit: contain;
     max-width:350px;
-    max-height:250px;
+    max-height:275px;
 }
 
 .gold .sponsor-box img {
     -o-object-fit: contain;
     object-fit: contain;
-    max-width:275px;
+    max-width:300px;
     max-height:200px;
 }
 
@@ -649,6 +649,13 @@ body {
     -o-object-fit: contain;
     object-fit: contain;
     max-width:250px;
+    max-height:150px;
+}
+
+.community .sponsor-box img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    max-width:200px;
     max-height:150px;
 }
 
