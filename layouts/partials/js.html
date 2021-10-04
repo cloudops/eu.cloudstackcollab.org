@@ -13,10 +13,10 @@
 $(function() {
     $('.schedule-item-expander').on("click", function(event) {
         if ($(this).parent().siblings(".desc-wrapper").find(".schedule-description").is(":visible")) {
-            $(this).html('<i class="fa fa-angle-down" style="font-size:35px;"></i>');
+            $(this).find(".schedule-item-arrow").html('<i class="fa fa-angle-down" style="font-size:35px;"></i>');
             $(this).parent().siblings(".desc-wrapper").find(".schedule-description").hide();
         } else {
-            $(this).html('<i class="fa fa-angle-up" style="font-size:35px;"></i>');
+            $(this).find(".schedule-item-arrow").html('<i class="fa fa-angle-up" style="font-size:35px;"></i>');
             $(this).parent().siblings(".desc-wrapper").find(".schedule-description").show();
         }
     });

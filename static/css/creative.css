@@ -685,11 +685,9 @@ body {
     margin-top:10px;
     font-size:95%;
 }
-.schedule-item-expander {
+.schedule-item-arrow {
     float:right;
     clear:right;
-    border:0;
-    background:none;
     margin-top:35px;
 }
 .schedule-time {
