@@ -93,7 +93,7 @@
   desc: "Network functions virtualization (NFV) is rapidly changing the networking landscape, virtual network functions (VNFs) are replacing classical hardware based network functions and moving the 'brains' of the network from dedicated hardware to virtual machines. The rise of VNFs allows for complex network functions to be deployed to locations previously inaccessible at the edge of networks, allowing for enterprises to control their networks at the border and not only at the core, which is especially important with the advent of the Internet of Things (IoT) and Cyber-Physical systems (CPSs). VNFs can be used for functions such as routers, load balancers, firewalls, intrusion detection devices (IPS/IDS), WAN accelerators, VPN endpoints, SD-WAN, session border controllers, route reflectors and many others. Apache Cloudstack can be leveraged in order to enable and automate the deployment of VNFs in datacentres and at the edge, ACS can also consume VNFs driven networks by using SD-WAN, WAN optimization and other technologies to create the underlying networking infrastructure on top of which ACS stands."
   tag: "Developers & Operators"
   theme: "success"
-  img: "img/speakers/incognito.png"
+  img: "img/speakers/alex-mattioli.png"
 - title: "Why system-relevant institutions need our help as open source technologists"
   speaker: "Sven Vogel (Sponsored)"
   company: "EWERK Group"
