@@ -1,6 +1,6 @@
 baseurl = "http://cloudstackcollab.org/"
 languageCode = "en-us"
-title = "CloudStack Collabpration Conference Virtual - November 9-12, 2021"
+title = "CloudStack Collaboration Conference Virtual - November 9-12, 2021"
 theme = "hugo-creative-theme"
 
 [params]
